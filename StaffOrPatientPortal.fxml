@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane prefHeight="200.0" prefWidth="200.0" stylesheets="@../css/application.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.SceneController">
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="initialVBox" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#switchToNurseOrDoctor" styleClass="mainButton" text="Medical Staff Portal" textAlignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#switchToPatientCreateOrAccess" styleClass="mainButton" text="Patient Portal" textAlignment="CENTER" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
